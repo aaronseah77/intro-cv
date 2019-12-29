@@ -1,0 +1,96 @@
+body {
+  background-image: url("images/bg-desktop.svg");
+  background-color: #674BAF;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  padding: 50px 0 100px 50px;
+}
+
+.computer {
+  float: left;
+  padding-right: 50px;
+}
+
+.body-container {
+  margin: 0 100px;
+}
+
+.header-one {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.paragraph {
+  font-weight: 400;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+  width: 100%;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+button {
+margin: 50px auto 20px 0;
+height: 45px;
+border-radius: 50px;
+border: none;
+background-color: #fff;
+color: 	#674baf;
+box-shadow: 0 8px 6px -6px black;
+font-size: 0.9rem;
+width: 200px;
+}
+
+button:hover {
+  background-color: violet;
+}
+
+.icon {
+  margin-top: 70px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+  list-style: none;
+  padding-top: 40px;
+}
+
+.social-icons li {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-facebook-f {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-instagram {
+  color:white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
